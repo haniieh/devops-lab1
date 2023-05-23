@@ -1,4 +1,4 @@
-FROM base-image:a25fabc
+FROM base-image:b29e8c2
 ARG GIT_COMMIT=unknown
 LABEL git-commit=$GIT_COMMIT
 CMD mkdir -p /var/www/html/
